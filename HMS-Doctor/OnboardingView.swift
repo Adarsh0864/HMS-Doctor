@@ -62,7 +62,7 @@ struct OnboardingView: View {
                         .padding()
                     }
                 }
-                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
 
                 HStack {
                    ForEach(0..<onboardingData.count, id: \.self) { i in
